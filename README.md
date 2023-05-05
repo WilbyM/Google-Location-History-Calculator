@@ -6,14 +6,14 @@ This script takes .JSON files that are exported from googles timeline feature an
 - location name (e.g Fairview Hotel Chincoteague
 - Hours Spent
 - Unique days
-'''
-Got to https://takeout.google.com/settings/takeout?hl=en&gl=NZ&expflags
-Under "Create A New Export" Deselect all options
-Search for Location History and tick that
-Export all the json files
-Create a Directory to store the script in
-Create a Directory within that called timeline-json
-Put all the XXXX_MONTH.JSONSs into the timeline-json directory
-run the Location-history.py script
-The CSV will be located in a newly create directory within the script run location
-'''
+
+1. Got to https://takeout.google.com/settings/takeout?hl=en&gl=NZ&expflags
+2. Under "Create A New Export" Deselect all options
+3. Search for Location History and tick that
+4. Export all the json files
+5. Create a Directory to store the script in
+6. Create a Directory within that called timeline-json
+7. Put all the XXXX_MONTH.JSONSs into the timeline-json directory
+8. run the Location-history.py script
+9. The CSV will be located in a newly create directory within the script run location
+
